@@ -1,5 +1,7 @@
 // Listen for submit
 document.getElementById('loan-form').addEventListener('submit', function (e) {
+    console.log(e);
+
     //hide results
     document.getElementById('results').style.display = "none";
 
